@@ -34,7 +34,7 @@ void main()
 	// "%s"  : 문자열을 출력하는 서식 지정자
 	// "%p"  : 주소를 출력하는 서식 지정자
 	// "%lf" : 실수(double)를 출력하는 서식 지정자
-	
+
 	// printf("서식지정자", alphabet)
 	// \n : 개행 문자
 	// printf("%c\n", alphabet); // G
@@ -42,7 +42,7 @@ void main()
 
 	// 서식 지정자의 경우 하나의 표준 출력 함수에 여러 개의 서식을
 	// 넣을 수 있으며, 서식 지정자의 순서는 왼쪽에서부터 시작
-	
+
 	// printf("%f %lf\n", decimal, value);
 
 	// 서식 지정자는 각각의 서식에 따라 원하는 데이터를 출력할 수 있으며
@@ -50,7 +50,7 @@ void main()
 
 	// int data1 = 20;
 	// printf("%s", data1);
-	
+
 	// printf("안녕하세요.");
 
 #pragma endregion
@@ -90,8 +90,8 @@ void main()
 	a1 = 99; // a1(99)
 
 	// 변수(변할 수 있는 수)
-	
-	a1 = 999; 
+
+	a1 = 999;
 
 	// printf("a1 변수의 값 : %d", a1);
 
@@ -135,6 +135,4 @@ void main()
 	// 6. printf(  ,리터럴 상수 / 리터럴 상수);
 	printf("%d\n", 100 / 4);
 #pragma endregion
-
 }
-
