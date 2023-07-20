@@ -142,6 +142,7 @@
     <ClCompile Include="소스.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="(2023.07.19) 자료형 변환.h" />
     <ClInclude Include="(2023.7.12) 변수.h" />
     <ClInclude Include="%282023.7.13%29 실수.h" />
     <ClInclude Include="(2023.7.14) 비트와 바이트.h" />
