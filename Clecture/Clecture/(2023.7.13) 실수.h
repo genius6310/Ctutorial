@@ -1,3 +1,4 @@
+#pragma once
 #include <stdio.h>
 // stdio 
 // 표준 입출력 헤더 파일

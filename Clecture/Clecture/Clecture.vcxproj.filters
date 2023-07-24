@@ -36,6 +36,9 @@
     <ClInclude Include="(2023.7.20) 포인터.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="(2023.7.21) 포인터 상수화.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp">
