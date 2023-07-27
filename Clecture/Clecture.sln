@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32002.261
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Clecture", "Clecture\Clecture.vcxproj", "{A39C384D-9650-4F23-B993-BD76C2837767}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MapEditor", "MapEditor\MapEditor.vcxproj", "{32E672DA-964E-4426-A3F1-F7EC6558DBBB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,14 @@ Global
 		{A39C384D-9650-4F23-B993-BD76C2837767}.Release|x64.Build.0 = Release|x64
 		{A39C384D-9650-4F23-B993-BD76C2837767}.Release|x86.ActiveCfg = Release|Win32
 		{A39C384D-9650-4F23-B993-BD76C2837767}.Release|x86.Build.0 = Release|Win32
+		{32E672DA-964E-4426-A3F1-F7EC6558DBBB}.Debug|x64.ActiveCfg = Debug|x64
+		{32E672DA-964E-4426-A3F1-F7EC6558DBBB}.Debug|x64.Build.0 = Debug|x64
+		{32E672DA-964E-4426-A3F1-F7EC6558DBBB}.Debug|x86.ActiveCfg = Debug|Win32
+		{32E672DA-964E-4426-A3F1-F7EC6558DBBB}.Debug|x86.Build.0 = Debug|Win32
+		{32E672DA-964E-4426-A3F1-F7EC6558DBBB}.Release|x64.ActiveCfg = Release|x64
+		{32E672DA-964E-4426-A3F1-F7EC6558DBBB}.Release|x64.Build.0 = Release|x64
+		{32E672DA-964E-4426-A3F1-F7EC6558DBBB}.Release|x86.ActiveCfg = Release|Win32
+		{32E672DA-964E-4426-A3F1-F7EC6558DBBB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
