@@ -63,9 +63,12 @@
     <ClInclude Include="(2023.7.28) 변수의 범위.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="(2023.7.31) 동적 할당.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="소스.cpp">
+    <ClCompile Include="소스.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
