@@ -1,118 +1,67 @@
 #include <stdio.h>
-#include <limits.h>
 
-#pragma region 열거형
-	// 명명된 정수형 상수의 집합입니다.
-enum State
-{
-	IDLE,
-	ATTACK = 100,
-	DIE
-
-	// enum에 설정된 값을 변경할 수 있으며, 중간에 값을
-	// 변경했을 때 그다음으로 설정된 값은 변경한 이후의 값에 +1로 설정됩니다.
-};
-
-#pragma endregion
 
 int main()
 {
-#pragma region 열거형
+#pragma region 이중 포인터
 
-	enum State state;
-
-	// state = IDLE;
-	// printf("state의 IDLE 값: %d\n", state);
-	// state = ATTACK;
-	// printf("state의 ATTAC 값: %d\n", state);
-	//	state = DIE;
+	//	int data = 100;
+	//	int* ptr1 = &data;
+	//	int** ptr2 = &ptr1;
 	//	
-	//	switch (state)
-	//	{
-	//	case IDLE: printf("대기 상태\n");
-	//		break;
-	//	case ATTACK: printf("공격 상태\n");
-	//		break;
-	//	case DIE: printf("죽음 상태\n");
-	//		break; 
-	//	}
+	//	**ptr2 = 999;
+	//	
+	//	printf("%d\n", data);
+	//	printf("%d", **ptr2);
 
-#pragma endregion
-
-#pragma region 별
-
-	// *
-	// **
-	// ***
-	// ****
-	// *****
-
-	//  for (int i = 0; i < 5; i++)
-	//  {
-	//  	for (int j = 0; j <= i; j++)
-	//  	{
-	//  		printf("*");
-	//  	}
-	//  	printf("\n");
-	//  }
+	//	int a = 10;
+	//	int b = 20;
+	//	
+	//	int* aPtr1 = &a;
+	//	int* bPtr1 = &b;
+	//	
+	//	int** aPtr2 = &aPtr1;
+	//	int** bPtr2 = &bPtr1;
+	//	
+	//	int* temp = *bPtr2;
+	//	
+	//	*bPtr2 = *aPtr2;
+    //	
+	//	*aPtr2 = temp;
+	//	
+	//	
+	//	
+	//	
+	//	printf("%d\n", **aPtr2);
+	//	printf("%d\n", **bPtr2);
 
 
 #pragma endregion
 
-#pragma region 1~10까지의 합
-
-	//	int result = 0;
-	//	
-	//	for (int i = 1; i <= 10; i++)
-	//	{
-	//		result = result + i;
-	//	}
-	//	printf("1~10 까지의 합: %d\n", result);
-
-#pragma endregion
-
-#pragma region ASCII 코드
-	// 1963년 미국 ANSI에서 표준화한 정뵤교환용 7비트 부호체계이다.
-
-	// 128개의 숫자, 문자, 특수문자, 제어문자가 표현됩니다.
-
-	//	char alphabet = 65;
-	//	
-	//	printf("alphabet 변수의 ASCII 코드의 값 : %c\n", alphabet);
-	//	printf("alphabet 변수의 값 : %d\n", alphabet);
-	//	
-	//	for (alphabet; alphabet <= 90; alphabet++)
-	//	{
-	//		printf("alphabet 변수의 ASCII 코드의 값 : %c\n", alphabet);
-	//	}
-
-#pragma endregion
-
-#pragma region 최댓값과 최솟값
-
-	// [10] [5] [11] [1] [3]
-
-	int max = 0;
-	int min = INT_MAX;
-
-	int array[5] = { 12, 4, 11, 1, 3 };
-	for (int i = 0; i <= 4; i++)
+#pragma region 약수
 	{
-		if (max < array[i])
+		int num = 0;
+
+		printf("숫자를 입력하시오 : ");
+
+		scanf_s("%d", &num);
+
+		for (int i = 1; i <= num; i++)
 		{
-			max = array[i];
+			if (num % i == 0)
+			{
+				printf("%d의 약수는 : %d\n", num, i);
+			}
 		}
-		if (min > array[i])
-		{
-			min = array[i];
-		}
+
 	}
-	printf("max 의 값 : %d\n", max);
-	printf("min 의 값 : %d\n", min);
-
-
 
 #pragma endregion
+
+	//	printf("1을 3으로 나눈 나머지 : %d", 2 % 3);
+	//	printf("1을 3으로 나눈 나머지 : %d", 3 % 3);
+	//	printf("1을 3으로 나눈 나머지 : %d", 4 % 3);
+	//	printf("1을 3으로 나눈 나머지 : %d", 1 % 3);
 
 
 	return 0;

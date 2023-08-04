@@ -1,3 +1,2 @@
 ﻿  소스.cpp
-C:\Users\happy\Desktop\Ctutorial\Clecture\Clecture\소스.cpp(22,13): warning C4101: 'state' :참조되지 않은 지역 변수입니다.
   Clecture.vcxproj -> C:\Users\happy\Desktop\Ctutorial\Clecture\x64\Debug\Clecture.exe
